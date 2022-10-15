@@ -1,0 +1,37 @@
+* {
+    font-family:'PT Serif', serif;
+  }
+ 
+
+  #menu li a {
+    text-decoration: none;
+    color: gray;
+  }
+
+  #menu li a:hover { 
+    color:cyan;
+  }
+  
+  /* PAGE MEMBERS */
+  
+  
+  /* Inverted text-img for members */
+  
+  @media(max-width:576px) {
+    .inverse-order {
+      display: flex;
+      flex-direction: column;
+    }
+    .photo-start {
+      align-self: start;
+      order: -1;
+    }
+  }
+  
+  
+  /* Background color for members */
+  
+  .team1 {
+    background: rgb(10,158,40);
+    background: linear-gradient(90deg, rgba(10,158,40,1) 42%, rgba(106,228,24,1) 86%);
+  }

@@ -1,0 +1,42 @@
+* {
+  font-family: 'PT Serif', serif;
+}
+
+#menu li a {
+  text-decoration: none;
+  color: gray;
+}
+
+#menu li a:hover {
+  color: cyan;
+}
+
+/* PAGE MEMBERS */
+/* Inverted text-img for members */
+@media (max-width: 576px) {
+  .inverse-order {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .photo-start {
+    -ms-flex-item-align: start;
+        -ms-grid-row-align: start;
+        align-self: start;
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+}
+
+/* Background color for members */
+.team1 {
+  background: #0a9e28;
+  background: -webkit-gradient(linear, left top, right top, color-stop(42%, #0a9e28), color-stop(86%, #6ae418));
+  background: linear-gradient(90deg, #0a9e28 42%, #6ae418 86%);
+}
+/*# sourceMappingURL=style.css.map */
