@@ -1,3 +1,4 @@
+/*  GLOBAL */
 * {
   font-family: 'PT Serif', serif;
 }
@@ -8,12 +9,25 @@
 }
 
 #menu li a:hover {
-  color: cyan;
+  color: powderblue;
+  display: inline-block;
+  margin: 0 0.5rem;
+  -webkit-animation: wobble;
+          animation: wobble;
+  /* referring directly to the animation's @keyframe declaration */
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  /* don't forget to set a duration! */
+}
+
+hr {
+  color: white;
+  width: 40%;
 }
 
 /* PAGE MEMBERS */
 /* Inverted text-img for members */
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .inverse-order {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -36,7 +50,23 @@
 /* Background color for members */
 .team1 {
   background: #0a9e28;
-  background: -webkit-gradient(linear, left top, right top, color-stop(42%, #0a9e28), color-stop(86%, #6ae418));
-  background: linear-gradient(90deg, #0a9e28 42%, #6ae418 86%);
+  background: linear-gradient(80deg, #0a9e28 32%, #6ae418 86%);
+}
+
+.team2 {
+  background: #3b4250;
+  background: -webkit-gradient(linear, left top, right top, color-stop(42%, #3b4250), color-stop(86%, #160d5d));
+  background: linear-gradient(90deg, #3b4250 42%, #160d5d 86%);
+}
+
+.team3 {
+  background: #22262d;
+  background: -webkit-gradient(linear, left top, right top, color-stop(36%, #22262d), color-stop(79%, #9f9f9f));
+  background: linear-gradient(90deg, #22262d 36%, #9f9f9f 79%);
+}
+
+.team4 {
+  background: #eeaeca;
+  background: radial-gradient(circle, #eeaeca 0%, black 78%);
 }
 /*# sourceMappingURL=style.css.map */

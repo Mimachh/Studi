@@ -1,37 +1,66 @@
-* {
-    font-family:'PT Serif', serif;
-  }
- 
+/*  GLOBAL */
 
-  #menu li a {
-    text-decoration: none;
-    color: gray;
-  }
+    * {
+        font-family:'PT Serif', serif;
+      }
+    
 
-  #menu li a:hover { 
-    color:cyan;
-  }
+      #menu li a {
+        text-decoration: none;
+        color: gray;
+      }
+
+      #menu li a:hover { 
+        color:powderblue;
+        display: inline-block;
+        margin: 0 0.5rem;
+      
+        animation: wobble; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s; /* don't forget to set a duration! */
+      }
+
+      hr { color: white;
+      width: 40%;}
   
+
   /* PAGE MEMBERS */
   
   
-  /* Inverted text-img for members */
-  
-  @media(max-width:576px) {
-    .inverse-order {
-      display: flex;
-      flex-direction: column;
-    }
-    .photo-start {
-      align-self: start;
-      order: -1;
-    }
-  }
-  
-  
-  /* Background color for members */
-  
-  .team1 {
-    background: rgb(10,158,40);
-    background: linear-gradient(90deg, rgba(10,158,40,1) 42%, rgba(106,228,24,1) 86%);
-  }
+      /* Inverted text-img for members */
+      
+      @media(max-width:768px) {
+        .inverse-order {
+          display: flex;
+          flex-direction: column;
+        }
+        .photo-start {
+          align-self: start;
+          order: -1;
+        }
+      }
+      
+      
+      /* Background color for members */
+      
+      .team1 {
+        background: rgb(10,158,40);
+        background: linear-gradient(80deg, rgba(10,158,40,1) 32%, rgba(106,228,24,1) 86%);
+      }
+
+      .team2 {
+        background: rgb(59,66,80);
+        background: linear-gradient(90deg, rgba(59,66,80,1) 42%, rgba(22,13,93,1) 86%);
+      }
+
+      .team3 {
+        background: rgb(34,38,45);
+        background: linear-gradient(90deg, rgba(34,38,45,1) 36%, rgba(159,159,159,1) 79%);
+      }
+
+      .team4 {
+        background: rgb(238,174,202);
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(0,0,0,1) 78%);
+      }
+
+
+
