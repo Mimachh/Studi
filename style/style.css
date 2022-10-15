@@ -1,6 +1,6 @@
 /*  GLOBAL */
 * {
-  font-family: 'PT Serif', serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 #menu li a {
@@ -68,5 +68,22 @@ hr {
 .team4 {
   background: #eeaeca;
   background: radial-gradient(circle, #eeaeca 0%, black 78%);
+}
+
+.team5 {
+  background: #e686af;
+  background: radial-gradient(circle, #eeaeca 0%, #73620c 78%);
+}
+
+#scrollUp {
+  position: fixed;
+  bottom: 10px;
+  right: -480px;
+  opacity: 0.5;
+}
+
+#chevrons {
+  height: 4%;
+  width: 8%;
 }
 /*# sourceMappingURL=style.css.map */

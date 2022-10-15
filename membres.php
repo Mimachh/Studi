@@ -2,21 +2,22 @@
     
 
     <main>
+    
       <!-- Menu pour trouver les membres -->
-      <div class="container-fluid text-white-50 pt-4">
+      <div class="container text-white-50 pt-4">
         <h1 class=" animate__animated animate__bounceInLeft">Nos différents membres :</h1>
         <ol id="menu">
           <li><a class="member_move" href="#frodon">Fraudons et Sam</a></li>
           <li><a class="member_move" href="#aragorn">Aragorn, Légolas, Gimli</a></li>
-          <li><a class="member_move" href="#gandalf">Glandalf</a></li>
+          <li><a class="member_move" href="#gandalf">Gant d'alf</a></li>
           <li><a class="member_move" href="#boromir">Bor-au-mir</a></li>
-          <li><a class="member_move" href="">Mer-riz et Pépin</a></li>
-      </ol>  
+          <li><a class="member_move" href="#merry">Met-riz et Pip'un</a></li>
+        </ol>  
       </div>
         <HR class="mx-auto">
 
         <!-- Team 1-->
-        <div class="text-dark container-fluid mt-4 team1 rounded-3 animate__animated animate__backInRight" id="frodon">
+        <div class="text-dark container mt-4 team1 rounded-3 animate__animated animate__backInRight" id="frodon">
 
           <div class="row ">
               
@@ -34,7 +35,7 @@
 
         <!-- Team 2-->
 
-          <div class="text-white-50 container-fluid team2 rounded-3 animate__animated animate__backInLeft" id="aragorn">
+          <div class="text-white-50 container team2 rounded-3 animate__animated animate__backInLeft" id="aragorn">
 
             <div class="row  inverse-order">
                 <div class="col-12 col-sm-12 col-md-5 p-4">
@@ -61,7 +62,7 @@
         <HR class="mx-auto">
 
           <!-- Team 3-->
-          <div class="text-white-50 container-fluid team3 rounded-3 animate__animated animate__backInRight" id="gandalf">
+          <div class="text-white-50 container team3 rounded-3 animate__animated animate__backInRight" id="gandalf">
 
             <div class="row">
 
@@ -80,7 +81,7 @@
 
           <!-- Team 4-->
 
-          <div class="text-white-50 container-fluid team4 rounded-3 animate__animated animate__backInLeft" id="boromir">
+          <div class="text-white-50 container team4 rounded-3 animate__animated animate__backInLeft" id="boromir">
 
             <div class="row inverse-order">
               <div class="col-12 col-sm-12 col-md-5 p-4">
@@ -96,29 +97,34 @@
               
             </div> 
           </div>
-
+        
+        <HR class="mx-auto">
 
           <!-- Team 5-->
-          <div class="text-white-50 container">
+          <div class="text-white-50 container rounded-3 team5 animate__animated animate__backInRight mb-4" id="merry">
 
             <div class="row">
 
-              <div class="col-12 col-sm-5 col-md-4 bg-primary">
-                    photo
+              <img src="./Photos/merry-pippin.png" alt="Photo de Merry et Pipin" class="col-12 col-sm-12 col-md-7 p-4 rounded-5">
 
-              </div>
-
-              <div class="col-12 col-sm-7 col-md-8 bg-success">
-                    texte
+              <div class="col-12 col-sm-12 col-md-5 p-4">
+                <h1 class="text-center pb-4">Met-Riz et Pip'un</h1>
+                <h3 class="pb-2">Les intégristes Zadistes</h3>
+                <p> Deux écologistes radicaux, anticapitalistes qui ne pensent qu'à s'amuser et fumer de l'herbe.<br>
+                 Ils volent la nourriture des agriculteurs locaux, parlent aux arbres et allument d'énormes braseros à Minas Tirith.</p>
               </div>
             </div>
           </div>
 
        
+          <div id="scrollUp">
+<a href="#top"><img src="Photos/chevrons.png" alt="Chevrons_top" class="rounded-circle" id="chevrons">
+</a>
+</div>
+
+
+
 
     </main>
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-
-</body>
-</html>
+  
