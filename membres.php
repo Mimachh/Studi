@@ -1,7 +1,7 @@
 <?php  require 'layout/navbar.php'; ?>
     
 
-    <main>
+<main>
     
       <!-- Menu pour trouver les membres -->
       <div class="container text-white-50 pt-4">
@@ -39,7 +39,7 @@
 
             <div class="row  inverse-order">
                 <div class="col-12 col-sm-12 col-md-5 p-4">
-                  <h1 class="text-center pb-4">Aragorn Legolas Gimli</h1>
+                  <h1 class="text-center pb-4">Aragorn Degolas Gimli</h1>
                   <h3 class="pb-2">Nos 3 itinérants. </h3>
                   <p> Ils sont les dignes représentants de leur communauté :  
                     <ul>
@@ -69,7 +69,7 @@
               <img src="./Photos/gandalf.jpg" alt="Photo de Gandalf" class="col-12 col-sm-12 col-md-7 p-4 rounded-5">
 
               <div class="col-12 col-sm-12 col-md-5 p-4">
-                <h1 class="text-center pb-4">Glandalf</h1>
+                <h1 class="text-center pb-4">Gant d'alf</h1>
                 <h3 class="pb-2">L'hermite </h3>
                 <p>Un sans adresse-fixe qui a roulé sa bosse, fumeur de pipe, spécialiste des feux d'artifice.<br> 
                   Compte se reconvertir en concepteur de pont suite à une mauvaise expérience. </p>
@@ -102,11 +102,8 @@
 
           <!-- Team 5-->
           <div class="text-white-50 container rounded-3 team5 animate__animated animate__backInRight mb-4" id="merry">
-
             <div class="row">
-
               <img src="./Photos/merry-pippin.png" alt="Photo de Merry et Pipin" class="col-12 col-sm-12 col-md-7 p-4 rounded-5">
-
               <div class="col-12 col-sm-12 col-md-5 p-4">
                 <h1 class="text-center pb-4">Met-Riz et Pip'un</h1>
                 <h3 class="pb-2">Les intégristes Zadistes</h3>
@@ -118,13 +115,10 @@
 
        
           <div id="scrollUp">
-<a href="#top"><img src="Photos/chevrons.png" alt="Chevrons_top" class="rounded-circle" id="chevrons">
-</a>
-</div>
-
-
-
-
-    </main>
+            <a href="#top"><img src="Photos/chevrons.png" 
+            alt="Chevrons_top" class="rounded-circle" id="chevrons">
+            </a>
+          </div>
+</main>
     
   
