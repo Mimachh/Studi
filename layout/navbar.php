@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A-Sauce</title>
     <link rel="stylesheet" href="./sass/bootstrap.css">
-    <link rel="stylesheet" href="./Style/style.css">
+    <link rel="stylesheet" href="./style/style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
@@ -15,6 +15,7 @@
   
   </head>
     <body class="bg-dark">
+    <?php require_once 'Constants/const.php'; ?>
       <header>
           <nav class="navbar navbar-expand-lg bg-dark navbar-dark border-bottom container-fluid"">
               <div class="container-fluid">
@@ -26,7 +27,7 @@
                   <div class="navbar-nav">
                     <a class="nav-link active px-3" aria-current="page" href="./index.php">Qui sommes-nous?</a>
                     <a class="nav-link px-3" href="./membres.php">Nos membres</a>
-                    <a class="nav-link px-3" href="./index.php">Nous rencontrer</a>
+                    <a class="nav-link px-3" href="./meet.php">Nous rencontrer</a>
                     <a class="nav-link px-3" href="./contact.php">Nous contacter</a>
                   </div>
                 </div>
