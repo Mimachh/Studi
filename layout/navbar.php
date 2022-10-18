@@ -25,9 +25,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                   <div class="navbar-nav">
-                    <a class="nav-link active px-3" aria-current="page" href="./index.php">Qui sommes-nous?</a>
+                    <a class="nav-link active px-3" aria-current="page" href="./index.php">Notre association</a>
                     <a class="nav-link px-3" href="./membres.php">Nos membres</a>
-                    <a class="nav-link px-3" href="./meet.php">Nous rencontrer</a>
+                    <a class="nav-link px-3" href="./action.php">Nos actions</a>
                     <a class="nav-link px-3" href="./contact.php">Nous contacter</a>
                   </div>
                 </div>

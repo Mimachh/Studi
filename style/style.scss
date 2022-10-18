@@ -84,16 +84,15 @@
       }
 
 
-/* PAGE MEET */
-
-
-
-/* EXPERIENCES  */
+/* PAGE ACTION */
+.h1-meet {
+  color: white; 
+}
 
 .meet ul li {list-style: none;}
 
 .meet h2 {
-  color: white;
+  color: purple;
 }
 
 
@@ -130,7 +129,7 @@
 
 .timeline li .timeline_badge {
   width: 50px;
-  line-height: 90px;
+  line-height: 50px;
   text-align: center;
   position: absolute;
   top: 16px;
@@ -190,4 +189,9 @@
   height: 1.5px;
   background-color: slateblue;
   margin-bottom: 10px;
+}
+/* Image flotante des actions*/
+.fondcombe {
+  width: 100%;
+  
 }
