@@ -9,6 +9,7 @@
             <div class="text-center">
                 <h1 class="my-4 h1-meet">Feuille de route 2023</h1>
             </div>
+         
             <ul class="timeline">
                 <li>
                     <div class="timeline_badge">
@@ -26,16 +27,11 @@
                                 <p>Retrouvez-nous à Fondcombe le 12 Janvier pour une rencontre avec les différents
                                     sponsors de notre association. Nous expliquerons notre plan d'action de l'année à venir.
                                 </p>
-                                <img src="Photos/fondcombe.jpg" alt="photo de fondcombe" class="fondcombe">
+                                <img src="Photos/fondcombe.jpg" alt="photo de fondcombe" class="img_action rounded-3">
                             </div>
                         </div>
                     </div>
-                    <div class="timeline_panel_container_inverted">
-                        <div class="timeline_panel">
-                               <img src="Photos/fondcombe.jpg" alt="photo de fondcombe" class="fondcombe"> 
-                            
-                        </div>
-                    </div>
+                    
                 </li>
 
                 <li>
@@ -56,6 +52,7 @@
                                 <p>En mars se déroulera une action spéciale en Moria, 
                                 nous y ferons tomber le pont de Kazak Dhum (grâce à notre spécialiste en
                                 pyrotechnie Gant d'alf) en signe de protestation contre ces nains qui pillent les ressources naturelles de la terre.</p> 
+                                <img src="Photos/moria.jpg" alt="photo de la moria" class="rounded-3 img_action">
                             </div>
                         </div>
                     </div>
@@ -76,6 +73,7 @@
                                 <p>Passage en Lorién au mois d'Avril où nous tiendrons un colloc sur les bienfaits de la naturopathie,
                                     Galadrielle nous fera goûter son eau de source minérale sans particules fines, sans chlore.
                                 </p>
+                                <img src="Photos/lorien.jpg" alt="photo de la lorien" class="rounded-3 img_action">
                             </div>
                         </div>
                     </div>
@@ -94,6 +92,7 @@
                                 <p>Rendez-vous à Minas-Tirith en Mai, le climat y sera doux en cette période de l'année. Nous y ménerons une action
                                     capitale. Nous allumerons les braseros afin de protester contre l'expansion des grandes métropoles et contre le réchauffement climatique.
                                 </p>
+                                <img src="Photos/minas tirith.jpg" alt="photo minas tirith" class="rounded-3 img_action">
                             </div>
                             <div class="timeline_body">
 
@@ -115,6 +114,7 @@
                             <div class="timeline_body">
                                 <h3> La montagne du destin</h3>
                                 <p>Aout, en plein coeur de la canicule, nous fondrons sur le Mordor et la montagne du Destin, où nous ferons tomber Sauron.</p>
+                                <img src="Photos/montagne du destin.jpg" alt="photo de la montagne du destin" class="rounded-3 img_action">
                             </div>
                         </div>
                     </div>
