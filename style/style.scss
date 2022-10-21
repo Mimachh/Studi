@@ -43,8 +43,8 @@
       /* Background color for members */
       
       .team1 {
-        background: rgb(10,158,40);
-        background: linear-gradient(80deg, rgba(10,158,40,1) 32%, rgba(106,228,24,1) 86%);
+        background: rgb(217,223,238);
+        background: linear-gradient(30deg, rgba(217,223,238,1) 0%, rgba(112,152,148,1) 44%, rgba(164,166,170,1) 64%);
       }
 
       .team2 {
@@ -192,5 +192,17 @@
 }
 
 .img_action {
+  width: 100%;
+}
+
+
+/* INDEX */
+
+.index_bg {
+  background: rgb(217,223,238);
+  background: linear-gradient(30deg, rgba(217,223,238,1) 0%, rgba(142,233,224,1) 44%, rgba(164,166,170,1) 64%);
+}
+
+#main_img {
   width: 100%;
 }

@@ -49,8 +49,8 @@ hr {
 
 /* Background color for members */
 .team1 {
-  background: #0a9e28;
-  background: linear-gradient(80deg, #0a9e28 32%, #6ae418 86%);
+  background: #d9dfee;
+  background: linear-gradient(30deg, #d9dfee 0%, #709894 44%, #a4a6aa 64%);
 }
 
 .team2 {
@@ -196,6 +196,16 @@ hr {
 }
 
 .img_action {
+  width: 100%;
+}
+
+/* INDEX */
+.index_bg {
+  background: #d9dfee;
+  background: linear-gradient(30deg, #d9dfee 0%, #8ee9e0 44%, #a4a6aa 64%);
+}
+
+#main_img {
   width: 100%;
 }
 /*# sourceMappingURL=style.css.map */

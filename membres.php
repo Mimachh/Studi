@@ -1,4 +1,4 @@
-<?php  require 'layout/navbar.php'; ?>
+<?php  require 'layout/Layout.php'; ?>
     
 
 <main>

@@ -1,4 +1,4 @@
-<?php require 'layout/navbar.php'; ?>
+<?php require 'layout/layout.php'; ?>
     
     <main>
         <div class="text-white-50 container">
