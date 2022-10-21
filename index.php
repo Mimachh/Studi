@@ -13,7 +13,8 @@
                   <p>Nous sommes une jeune association qui lutte contre le réchauffement climatique. 
                     Nous nous en prenons aux grandes entreprises et aux grands patrons qui polluent l'écosystème.
                     Notre action principale et de nous rendre au Mordor et de confronter le PDG de la montagne du destin : Sauron, pour qu'il réponde de ses actes, et qu'il paie ses taxes carbonne.</p>
-              </div>
+                    <p>Vous pouvez nous contacter au <a href="tel:+330011223344">00 11 22 33 44</a> ou par mail via notre <a href="contact.php">formulaire de contact</a>. </p>
+                </div>
           </div>
           
           
